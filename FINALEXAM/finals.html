@@ -1,0 +1,33 @@
+
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="finals.css">
+</head>
+<body>
+
+    <header>
+        <h1>Quest Board</h1>
+    </header>
+
+    <main>
+        <input type="text" id="taskInput" placeholder="Enter task">
+
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <button id="addBtn">Add Task</button>
+        <button id="themeBtn">Theme</button>
+
+        <div id="taskList"></div>
+
+        <p>Completed Tasks: <span id="count">0</span></p>
+        <p>Pending Tasks: <span id="pending">0</span></p>
+    </main>
+
+    <script src="finals.js"></script>
+</body>
+</html>

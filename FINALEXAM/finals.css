@@ -1,0 +1,58 @@
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    background:#f4f4f4;
+    padding:20px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:20px;
+    border-style: dashed;
+    font-family: "Merriweather", Georgia, serif;
+}
+
+input, select, button{
+    padding:10px;
+    margin:5px;
+}
+
+.task{
+    background:white;
+    padding:10px;
+    margin:10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:5px;
+}
+
+.low{
+    border-left:5px solid green;
+}
+
+.medium{
+    border-left:5px solid orange;
+}
+
+.high{
+    border-left:5px solid red;
+}
+
+.completed{
+    text-decoration:line-through;
+    background:#d4edda;
+}
+
+.pending{
+    background: rgb(243, 243, 182);
+}
+
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark .task{
+    background:#444;
+}
